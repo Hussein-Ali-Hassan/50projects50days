@@ -41,6 +41,24 @@ header h2 {
     font-weight: 400;
 }
 
+.description {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.description a {
+    padding: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.description a:hover {
+    color: #be3144;
+
+}
 main {
     display: flex;
     flex-wrap: wrap;
@@ -90,9 +108,10 @@ main {
 .project h3 {
     color: #fff;
     font-family: inherit;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 5px auto 20px;
 }
+
 
 footer {
     position: absolute;
